@@ -1,8 +1,7 @@
 {
-  "name": "weather",
+  "name": "coundown",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
   "scripts": {
     "lint": "eslint ./js",
     "lint:fix": "eslint ./js --fix",
