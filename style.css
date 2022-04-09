@@ -1,0 +1,162 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: calc(28 / 24);
+  color: #000000;
+  min-height: 100vh;
+  font-size: 24px;
+  background-color: black;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+ul,
+ol {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  border: none;
+  font: inherit;
+}
+
+input::placeholder {
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.countdown {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 15px;
+}
+
+.countdown__title {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.countdown__form {
+  max-width: 500px;
+  width: 100%;
+  height: 220px;
+}
+
+.countdown__action {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.countdown__label {
+  max-width: 380px;
+  width: 100%;
+}
+
+.countdown__input {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px 0 0 5px;
+  border-right: 2px solid black;
+}
+
+input::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+}
+
+.countdown__btn {
+  background-color: #fff;
+  border-radius: 0 5px 5px 0;
+  padding: 10px 20px;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.countdown__btn:hover {
+  background-color: gray;
+  color: white;
+}
+
+.countdown__time {
+  display: none;
+  justify-content: center;
+  gap: 20px;
+  /* color: white; */
+  transition: color 1s;
+  flex-wrap: wrap;
+}
+
+.countdown__time span {
+  display: block;
+}
+
+.countdown__error {
+  transition: color 1s;
+  display: none;
+  justify-content: center;
+}
+.countdown__set-date {
+  color: white;
+  transition: color 1s;
+  justify-content: center;
+}
+
+@media (max-width: 767.98px) {
+  body {
+    font-size: 16px;
+  }
+}

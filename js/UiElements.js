@@ -1,0 +1,17 @@
+export default {
+  FORM: document.querySelector(".countdown__form"),
+  INPUT: document.querySelector(".countdown__input"),
+  BTN: document.querySelector(".countdown__btn"),
+  DISPLAY: document.querySelector(".countdown__display"),
+  TIME: document.querySelector(".countdown__time"),
+  YEAR: document.querySelector(".countdown__year span"),
+  DAYS: document.querySelector(".countdown__days span"),
+  HOURS: document.querySelector(".countdown__hours span"),
+  MINUTE: document.querySelector(".countdown__minute span"),
+  SECOND: document.querySelector(".countdown__second span"),
+  ERROR: document.querySelector(".countdown__error"),
+  SET_DATE: document.querySelector(".countdown__set-date"),
+  TIMER: true,
+  IS_START: true,
+  ANIMATION: true,
+};

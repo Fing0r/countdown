@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown</title>
+  <link href="style.css?version=0" rel="stylesheet">
+  <script defer src="./js/main.js?version=0" type="module"></script>
+</head>
+
+<body>
+  <div class="countdown">
+    <form class="countdown__form">
+      <h1 class="countdown__title">Countdown</h1>
+      <div class="countdown__action">
+        <label class="countdown__label" for="">
+          <input class="countdown__input" type="date" required>
+        </label>
+        <button class="countdown__btn">Задать</button>
+      </div>
+      <div class="countdown__display">
+        <div class="countdown__set-date">Установите дату</div>
+        <div class="countdown__time">
+          <div class="countdown__year">Years: <span>0</span></div>
+          <div class="countdown__days">Days: <span>0</span></div>
+          <div class="countdown__hours">Hours: <span>0</span></div>
+          <div class="countdown__minute">Minutes: <span>0</span></div>
+          <div class="countdown__second">Seconds: <span>0</span></div>
+        </div>
+        <div class="countdown__error"></div>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
